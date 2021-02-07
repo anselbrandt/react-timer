@@ -45,7 +45,7 @@ const Counter = () => {
       </div>
       <div>Total {msToTime(totalTime)} s</div>
       <div>
-        <button onClick={handleClick}>pause</button>
+        <button onClick={handleClick}>{isPaused ? "Resume" : "Pause"}</button>
       </div>
     </>
   );
