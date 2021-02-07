@@ -1,1 +1,1 @@
-# React FPS Counter
+# React Timer
